@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="3arabitak.css">
+    <title>3arabitak</title>
+    <link rel="icon" href="images/blue-car-icon-31.png" type="image/gif" sizes="16x16">
+    <script src="3arabitak.js"></script>
+
+</head>
+<body>
+    
+    <div>
+        <a href="index.html"><img id="logo" src="images/logo.jpg.jfif" alt="3arabitak logo" ></a>
+    </div>
+    
+     <div id="nav"> 
+        <ul>
+         <li ><a class="active" href="index.html">Home</a></li>
+         <li><a href="brands.html">Brands</a></li>
+         <li><a href="CarsShowrooms.html">Cars showroms</a></li>
+         <li><a href="contactUs.html">Contact Us</a></li>
+         
+        </ul>
+    </div>
+   <table id="MainContent"><tr>
+       <td  id="findFormtd">
+       <div class="Find">
+<!--<h1> Find Car</h1>-->
+    <div id="findForm">
+    <form method="post">     
+    
+    <table id="FindCartable">
+        <tr>
+        <th colspan="2">Find Car</th>
+        </tr>        
+        
+      <tr>
+        <td>
+            <select size="1" class="FormField">
+             <option>Select a make</option>
+             <option value="kia">Kia</option>
+             <option value="Audi">Audi</option>
+             <option value="BMW">BMW</option>
+             <option value="toyota">Toyota</option>
+             </select>            
+        </td>
+        <td style="text-align: right">
+            <select size="1" name="car" id="car1" class="FormField">
+             <option>Select a model</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <select size="1" name="car" id="car2" class="FormField">
+             <option>Select a type</option>
+             <option value="SUV">SUV</option>
+             <option value="4x4">4x4</option>
+             <option value="coupe">coupe</option>
+             <option value="sedan">sedan</option>
+            </select>
+        </td>
+
+        <td style="text-align: right">
+            <select size="1" name="car" id="car3" class="FormField">
+             <option>Select a transmis</option>
+             <option value="manual">manual</option>
+             <option value="automatic">automatic</option>
+             <option value="CVT">CVT</option>
+            </select>
+        </td> 
+    </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: center"> <button type="button" class="Formbutton" onclick="document.getElementById('id01').style.display='block'" value="Search">Search</button></p>
+
+        </td>
+        </tr>
+    </table>
+ 
+</form>
+</div>
+</div>
+       
+       <br>
+                <div class="bodycar">
+       <table id="bodyCarTable" >
+           <tr>
+               <th colspan="3" >Body Type</th>
+               
+       </tr>
+<tr>
+           <td>
+               <a href="4x4.html">
+                   <img src="images/4X4.jpeg"  class="bodyCarLogo" alt="4x4"  ></a>
+    <h4>4x4</h4> </td>
+       <td>
+    <img src="images/sedan.jpeg" alt="coupe" class="bodyCarLogo">
+              
+            <h4>Coupe</h4>
+           </td>
+    <td><img  src="images/SUV.jpeg" alt="SUV" class="bodyCarLogo">
+            <h4>SUV</h4> </td>
+    </tr>
+        <tr>
+           <td>
+        <img src="images/hatchback.jpeg" alt="Hatchback" class="bodyCarLogo">
+            <h4>Hatchback</h4>   
+</td>
+            <td>
+          <img src="images/coupe.jpeg" alt="sedan" class="bodyCarLogo">
+            <h4>Sedan</h4>
+            </td>
+            <td><img src="images/mini%20van.jpeg" alt="miniVan" class="bodyCarLogo">
+            <h4>Mini Van</h4> </td>
+           </tr>
+        </table>
+    </div>
+
+       </td>
+       <td id="TopBrandstd">
+<div  class="TopBrands">
+    <table id="TopBrandsTabel">
+           <tr>
+               <th colspan="4" id="topBrandHeader">Top Brands</th>
+        </tr>
+<tr>
+          <td>
+    <a href="kia%20cars.html">
+    <img src="images/KIA.jpeg"  alt="KIA"  class="image"></a>
+        
+</td>
+       <td>
+    <img src="images/fiat.jpg" alt="Fiat"  class="image">
+
+           </td>
+    <td><img src="images/BMW.jpeg" alt="BMW"  class="image">
+          </td>
+           <td><img src="images/Geely.jpeg" alt="GEELY"  class="image">
+             </td>        
+    </tr>
+        <tr>
+           <td>
+        <img src="images/Toyota.jpeg" alt="TOYOTA"  class="image">
+               
+</td>
+            <td>
+          <img src="images/HYUNDAI.jpeg" alt="hyundai" class="image">
+         
+            </td>
+            <td><img src="images/Mini%20Cooper.jpeg" alt="mini couper"  class="image">
+            </td>
+            <td><img src="images/BYD.jpg" alt="BYD"  class="image">
+             </td>
+          </tr>
+        </table>
+   
+        </div>
+<hr id="homeline">
+           
+      <div id="news">
+         <table id="NewsTabel">
+           <tr>
+               <th colspan="2" id="LatestNews">Latest Car News</th>
+        </tr>
+             <tr>
+                 <td class ="tdNews"><div class="HomeNews">
+                 <a href="https://edition.cnn.com/2020/04/06/cars/nissan-mississippi-tennessee-furlough/index.html" target="_blank" >
+                 <img class="NewsFloat" src="images/nisNews.png"  alt="Nissan" ></a>
+                 <P> Nissan to furlough about 10,000 workers in Mississippi, Tennessee </P>
+                 </div></td>
+                 
+                 <td class ="tdNews"><div class="HomeNews">
+                     <a href="https://edition.cnn.com/2020/03/19/cars/tesla-suspends-production/index.html" target="_blank">
+                     <img class="NewsFloat" src="images/tesla.jfif"  alt="tesal" ></a>
+                     <P>Tesla will suspend production at its California plant</P>
+                     </div></td>
+             </tr>
+             <tr>
+                 <td class ="tdNews"><div class="HomeNews">
+                 <a href="https://edition.cnn.com/2020/03/15/cars/ferrari-suspending-production-coronavirus/index.html" target="_blank">
+                 <img class="NewsFloat" src="images/ferrari.png"  alt="Ferrari" ></a>
+                 <P> Ferrari suspends production at two Italian factories because of coronavirus </P>
+                 </div></td>
+                    
+                 <td class ="tdNews"><div class="HomeNews">
+                 <a href="https://www.caranddriver.com/news/" target="_blank">
+                 <img class="NewsFloat" src="images/newslogo.png"  alt="news"  ></a>
+                 <P> Some Car Insurance Companies Giving Customers Partial Refunds during PandemicPeople are driving way less. </P>
+                     </div></td>
+             </tr>
+        </table>
+               
+    </div>
+      
+       </td></tr></table>
+                <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">x</span>
+  
+    <div class="containerWarning">
+      <h1>Sorry</h1>
+      <p>Our database is under construction!</p>
+    
+      <div style="width:100%">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Ok</button>
+        
+      </div>
+    </div>
+
+</div>
+         
+        <div id="footer">Copyright&copy; 2020 3arabitak <br> <a href="mailto:3arabitak@gmal.com">3arabitak@gmail.com</a>
+        </div>
+
+
+      
+</body>
+</html>

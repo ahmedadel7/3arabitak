@@ -1,0 +1,591 @@
+body{
+    background-color: #FFFFFF;
+    width: auto;
+    margin: 0px;
+    /*height: 30%;*/
+}
+
+h3{
+    font-family: inherit;
+    font-size:larger;
+    
+}
+
+th{
+    font-size: 13pt;
+    margin: auto;
+    background-size: contain;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    
+    background-position: left;
+   text-transform: uppercase;
+
+}
+#FindCartable{
+    width: 100%;
+}
+
+.BrandsLogotd{
+    text-align: center;
+list-style: none;
+    
+}
+.BrandsLogotd p{list-style: none;}
+#topBrandHeader{
+    text-align: center;
+}
+/*table{
+    
+text-align: left;
+    padding-left: 0px;
+    
+    
+}
+*/
+.Find{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    border: 2px solid black;
+    text-align: left;
+    height: 300px;
+}
+    
+    
+}
+#findFormtd{
+    vertical-align: top;
+}
+
+#TopBrandstd{
+    vertical-align: top;
+    align-items: center;
+    width:70%;
+}
+
+.Find td{padding: 5px 20px 8px 5px;}
+.Find tr{padding-bottom: 20px;}
+.bodycar td{padding: 20px;}
+
+.FormField {
+    width:140px;
+}
+
+#NewsTabel{
+  width:100%;  
+}
+.NewsFloat{
+    float: left;
+    margin-right: 10px;
+     width:70px;
+    height:70px;
+    transition: .9s ease;
+    backface-visibility: hidden;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.tdNews{
+    width:50%;
+    padding: 10px;
+}
+
+.NewsFloat:hover{
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+#bodyCarTable{
+    width: 30%;
+}
+.bodyCarLogo{
+    width:60px;
+    height:60px;
+    transition: .6s ease;
+
+}
+.bodyCarLogo:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.4);
+}
+    
+
+
+#logo{
+    margin-left: 2px;
+     width:270px;;
+    height:70px;;
+}
+.bodycar{position: relative;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    
+   }
+.bodycar td{padding: 5px 25px 0px 10px;}
+.bodycar h4{padding: 5px 25px 0px 10px;}
+.TopBrands{
+    padding: 16px 10px 10px 10px;
+    text-align: center;
+    width: 100%;}
+.TopBrands td{padding: 0px 20px 30px 40px;}
+#TopBrandsTabel{
+    width:100%;
+    height: 300px;
+}
+
+h4{
+  margin-top: auto;
+}
+#nav{
+  list-style:none;
+    background-color: rgb(49, 142, 201);
+    padding-left: 40px;
+    margin-top: 0px;
+    margin-right: 15px;
+    font-size: 1.2em;
+    border-style: solid;
+    margin-left: 2px;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(49, 142, 201);
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: rgb(26, 74, 106);
+}
+
+#nav li a:hover {
+  background-color: rgb(26, 74, 106);
+}
+
+
+
+#nav a{text-decoration: none;}
+#nav a:link{color:white;}
+#nav a:visited{color: snow; }
+
+
+#footer{
+    font-size: 75%;
+        margin-top:30px;
+    font-style: italic;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+
+.content{
+     text-align: left; 
+    min-width: 960px;
+    list-style-position: inside;
+    width: 80%;
+     min-width: 960px;
+    overflow: auto;
+    border-bottom: 3px;
+    border-color: black;
+    border-bottom-style: solid;
+    
+    
+}
+.content img {float: left; padding-right: 20px; } 
+        h1{ margin-top: 0px;}
+.brand{position: relative;
+    /*height: 500px;
+    width: 980px;*/
+    
+}
+.brand td {padding:20px 20px 40px 40px}
+
+.brand tr{padding: 10px 50px 60px 75px}
+.brand ul{padding: 0px 0px 0px 25px}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width:70px;
+    height:70px;
+    transition: .9s ease;
+    backface-visibility: hidden;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+
+.image:hover  {
+ -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+  
+}
+
+ul{
+    list-style-type: none;
+}
+
+.BrandsLogo{
+    width:90px;
+    height:90px;
+    transition: .6s ease;
+}
+.BrandsLogo:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.CarsShowroomlogao{
+    width:145px;
+    height:145px;
+    transition: .6s ease;
+}
+.CarsShowroomlogao:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.Formbutton{
+  background-color: rgb(49, 142, 201);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 250px;
+}
+.Formbutton:hover{
+    background-color: rgb(26, 74, 106);
+}
+
+input[type=submit] {
+  background-color: rgb(49, 142, 201);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(26, 74, 106);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.BRANDlogo{
+    border-radius: 50%;
+    width: 8%;
+    padding-top:4px; 
+}
+.BrandCars{
+     border: 0.2px solid;
+    text-align: left; 
+    list-style-position: inside;
+    overflow: auto;
+    border-color: black;
+     
+}
+
+.model{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 2px 8px 0;
+    margin-bottom: 22px;
+    height: 100PX;
+     cursor: pointer;
+
+}
+
+.carlogo{
+  width: 100PX;
+    height: 100px;
+       float: left; 
+    padding-right: 20px;
+      transition: .3s ease;
+    
+}
+.carlogo img{
+    width: 100px;
+height: 100px;
+}
+.carlogo :hover{ -webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+.description{
+  padding-left: 20px;
+    list-style-position: inside;
+    overflow: auto;
+ 
+}
+.carname{
+       color: rgb(49, 142, 201);
+   
+        
+}
+
+
+
+
+/*
+
+spacespacespacespacespacespacespacespacespacespacespacespace
+spacespacespacespacespacespacespacespacespacespacespacespace
+spacespacespacespacespacespacespacespacespacespacespacespace
+
+*/
+.mySlides {display: none}
+.aspimg{
+    vertical-align: middle;
+    height: 550px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(49, 142, 201);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: whitesmoke; 
+}
+
+
+
+.numbertext {   
+  color:rgb(28, 83, 119);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#AspTabel{
+    align-content: center;
+}
+
+
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.carAspName{
+    color: rgb(26, 74, 106);
+    font-size: 40px; 
+}
+
+#Aspects {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+#Aspects td, #Aspects th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Aspects tr:nth-child(even){background-color: #f2f2f2;}
+
+#Aspects tr:hover {background-color: #ddd;}
+
+#Aspects th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(26, 74, 106);
+  color: white;
+}
+.carsBrands1{
+    width: 50%;
+    margin: auto;
+}
+#homeline{
+    border-color:  rgb(49, 142, 201);
+}
+.vistedMenueItem{
+    text-decoration-color: black;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #FFFFFF;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: rgb(26, 74, 106);
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: none;
+}
+/*
+spacespacespacespacespacespacespacespace
+spacespacespacespacespacespacespacespace
+spacespacespacespacespacespacespacespace
+spacespacespacespacespacespacespacespace
+*/
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  
+}
+
+button:hover {
+  opacity:1;
+ 
+}
+
+
+
+
+.cancelbtn {
+ background-color:rgb(49, 142, 201);
+  left: 35%;
+  width:30%;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+ 
+}
+.cancelbtn:hover{
+ background-color: rgb(26, 74, 106);
+	
+}
+
+
+
+.containerWarning {
+  padding: 16px;
+  text-align: center;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 2; 
+  left: 40%;
+  top: 35%;
+  width: 20%; 
+  overflow: auto; 
+  background-color: #ffffff;
+  border: 1px solid #888;
+    box-shadow: 5px 10px #888888;
+  
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto  auto; 
+  width: 80%; 
+  
+}
+
+
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.close:hover {
+  color: #f44336;
+  cursor: pointer;
+}
